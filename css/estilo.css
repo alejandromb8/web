@@ -1,0 +1,83 @@
+header {
+    background: blue;
+    color: white;
+    text-align: center;
+}
+
+
+
+nav a {
+    color: white;
+}
+
+
+
+
+main {
+    background-color: white;
+}
+
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+.fdh {
+    background-color: red;
+}
+
+.ldm {
+    background-color: blue;
+}
+
+.sos {
+    background-color: rgb(18, 137, 153);
+}
+
+.in {
+    background-color: cadetblue;
+}
+
+.ipe {
+    background-color: purple;
+}
+
+.iso {
+    background-color: green;
+}
+
+.gbd {
+    background-color: goldenrod;
+}
+
+.par {
+    background-color: violet;
+}
+
+.digi {
+    background-color: greenyellow;
+}
+
+.proy {
+    background-color: grey;
+}
+
+
+
+
+.recreo {
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}

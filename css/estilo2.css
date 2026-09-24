@@ -1,0 +1,24 @@
+header{
+    background-color: #b90f0f;
+    padding: 1em;
+}
+
+footer{
+    background-color: #b90f0f;
+    padding: 1em;
+    text-align: center;
+}
+
+thead, th, td{
+    padding: 0.5em;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.fdh{
+    background-color: #3213cc;
+}
+
+.ipe{
+    background-color: #c7c41c;
+}
