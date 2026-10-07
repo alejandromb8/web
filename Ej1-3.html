@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de Prueba</title>
+
+    <style>
+        caption{    
+            font-size: 20px;
+            font-style: italic;
+        }
+        /* --- tabla1 --- */
+        .tabla1 {
+            border:blue solid 2px;
+            padding: 15px;
+        }
+        .tabla1 td {
+            border:blue solid 2px;
+            padding: 15px;
+            text-align: left;
+        }
+        /* --- tabla2 --- */
+       .tabla2 {
+            border: 2px solid #ffd700;
+            border-collapse: collapse;
+            text-align: center;
+        }
+         .tabla2 th, .tabla2 td {
+            border: 2px solid #ffd700;
+            padding: 15px 20px;
+       }
+       .gris{
+        background-color: rgba(128, 128, 128, 0.5);
+       }
+       .verde{
+        background-color: rgba(109, 128, 0, 0.726);
+       }
+    </style>
+</head>
+
+<body>
+
+    <!-- tabla1 -->
+    <table class="tabla1">
+        <caption>Tabla prueba 1</caption>
+        <thead>
+            <tr>
+                <th>columna 1</th>
+                <th>columna 2</th>
+                <th>columna 3</th>
+                <th>columna 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>col1</td>
+                <td colspan="2">col2</td>
+                <td rowspan="2">col3</td>
+            </tr>
+            <tr>
+                <td>colum1</td>
+                <td>colum2</td>
+                <td>colum4</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- tabla2 -->
+    <table class="tabla2">
+        <caption>Tabla prueba 2</caption>
+        <thead>
+            <tr>
+                <th class="gris">columna 1</th>
+                <th class="gris">columna 2</th>
+                <th class="gris">columna 3</th>
+                <th class="gris">columna 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="verde">col1</td>
+                <td class="verde" colspan="2">col2</td>
+                <td class="verde">col3</td>
+            </tr>
+            <tr>
+                <td class="gris">col1</td>
+                <td class="gris" rowspan="2">col2</td>
+                <td class="gris">col3</td>
+                <td class="gris">col4</td>
+            </tr>
+            <tr>
+                <td class="verde">col1</td>
+                <td class="verde">col3</td>
+                <td class="verde">col4</td>
+            </tr>
+            <tr>
+                <td class="gris">col1</td>
+                <td class="gris">col2</td>
+                <td class="gris">col3</td>
+                <td class="gris">col4</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

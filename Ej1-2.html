@@ -5,24 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Mi Instituto</title>
+
+    <style>
+        body {
+            background-image:url('img/flor.png');
+            background-repeat: no-repeat;
+            background-position: center top;
+            font-family: Arial, sans-serif;
+        }
+
+        .encabezado {
+            color: red;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .cuadroblanco{
+            background-color: white;
+            border: 1px solid #999;
+            display: inline-block;
+            padding: 3px 8px;
+            
+        }
+
+        .cuadroamarillo{
+            background-color: #ffd700;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #6495ED;
+            border: 2px solid black;
+            padding: 20px;
+            margin-top: 120px;
+        }
+    </style>
 </head>
 
 <body>
 
     <header>
-        <p>Esto es un encabezado <del>h4</del> <sub><mark>h2</mark></sub></p>
+        <p class="encabezado"><b>Esto es un encabezado</b><del>h4</del> <sub><mark>h2</mark></sub></p>
     </header>
 
     <main>
-        <p>Ir al capitulo 4:</p>
-        <p>esto es un texto<br>preformado</p>
-        <br>
-        <p>Este hipervínculo va a <sup>google</sup><a href="https://www.google.com">Ir a google:</a></p>
+        <p class="cuadroamarillo"><b>Ir a capitulo 4:</b></p>
+
+        <pre>esto es un texto 
+ preformateado</pre>
+        <p>
+            Este hipervínculo va a <sup><b>google</b></sup>
+            <a href="https://www.google.com" class="cuadroamarillo"><b>Ir a google:</b></a>
         </p>
     </main>
 
     <footer>
-        <p>hipervinculo a la misma pagina</p>
-        <p>Esto es el Capitulo 4</p>
+        <div class="cuadroblanco">hipervinculo en la misma pagina</div>
+        <p><b>Esto es el Capitulo 4</b></p>
     </footer>
+
 </body>
+</html>
