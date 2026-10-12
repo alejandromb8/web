@@ -1,0 +1,49 @@
+.header {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.24);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.24);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url('../img/flor.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-family: Arial, sans-serif;
+}
+
+.encabezado {
+    color: red;
+    text-align: center;
+    font-size: 22px;
+}
+
+.cuadroblanco {
+    background-color: white;
+    border: 1px solid #999;
+    display: inline-block;
+    padding: 3px 8px;
+}
+
+.cuadroamarillo {
+    background-color: #ffd700;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer {
+    background-color: #6495ED;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 120px;
+}
