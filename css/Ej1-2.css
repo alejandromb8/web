@@ -41,7 +41,7 @@ body {
     display: inline-block;
 }
 
-footer {
+.footer2 {
     background-color: #6495ED;
     border: 2px solid black;
     padding: 20px;

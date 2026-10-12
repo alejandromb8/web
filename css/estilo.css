@@ -4,26 +4,36 @@ header {
     text-align: center;
 }
 
-
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
 
 nav a {
     color: white;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
 
-
+nav li {
+    display: inline-block;
+    margin: 5px 10px;
+}
 
 main {
     background-color: white;
 }
 
-
 th, td {
     border: 1px solid black;
     text-align: center;
 }
-
-
 
 .fdh {
     background-color: red;
@@ -65,19 +75,7 @@ th, td {
     background-color: grey;
 }
 
-
-
-
 .recreo {
     background-color: white;
     text-align: center;
-}
-
-
-
-
-footer {
-    text-align: center;
-    background-color: blue;
-    color: white;
 }
