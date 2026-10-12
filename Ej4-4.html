@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Ej4-4.css">
+    <title>Cambio de nombre</title>
+</head>
+<body>
+    <header>
+        <ul class="header">
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Bienvenido al formulario de cambio de nombre</h2>
+        <form action="Ej4-5.html" method="get">
+            <div>
+                <label>¿Te gusta tu nombre? (elige solo una opción)</label>
+                <div>
+                    <input type="radio" id="si" name="gusta_nombre" value="si">
+                    <label for="si">Si</label>
+                    <input type="radio" id="no" name="gusta_nombre" value="no">
+                    <label for="no">No</label>
+                    <input type="radio" id="nunca" name="gusta_nombre" value="nunca">
+                    <label for="nunca">Nunca lo he pensado</label>
+                </div>
+            </div>
+            <div>
+                <label for="nuevo-nombre">Selecciona el nombre que te quieres poner:</label>
+                <select id="nuevo-nombre" name="nombre_seleccionado">
+                    <option value="antonio">Antonio</option>
+                    <option value="manuel">Manuel</option>
+                    <option value="jose">José</option>
+                    <option value="francisco">Francisco</option>
+                    <option value="david">David</option>
+                    <option value="juan">Juan</option>
+                    <option value="javier">Javier</option>
+                    <option value="daniel">Daniel</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label for="otro_nombre">En caso de querer otro nombre, escríbelo aquí:</label>
+                <input type="text" id="otro_nombre" name="otro_nombre" placeholder="Nombre">
+            </div>
+            <div>
+                <label for="experiencia">Valora tu experiencia</label><br>
+                <input type="range" id="experiencia" name="experiencia" min="1" max="10" step="1">
+            </div>
+            <div class="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="footer">Mi web</p>
+    </footer>
+</body>
+</html>
